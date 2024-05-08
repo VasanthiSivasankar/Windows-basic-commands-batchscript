@@ -31,46 +31,33 @@ Create a directory named "MyLab" on the desktop.
 ## COMMAND AND OUTPUT
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
-![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/ec22b70e-55e1-44c4-9190-334de365a785)
+
 
 
 ## COMMAND AND OUTPUT
 
 List the contents of the "MyLab" directory.
-![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/2ecbb1da-0080-499d-82a9-02219862125a)
+![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/328d6dd4-6870-4908-96cb-6ad065cce2e3)
 
 
 ## COMMAND AND OUTPUT
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
-![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/48225300-32a9-4c38-8618-9130423d708b)
+![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/904a26c9-3759-4446-8571-dfbef024add7)
 
 ## COMMAND AND OUTPUT
 
 Move the "MyLab" directory to the "Documents" folder.
-![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/e488feb9-32e0-4197-9408-1986f983ebb7)
+![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/d26eb424-73fa-4ce5-89fb-5884d4f52e90)
 
 
-## COMMAND AND OUTPUT
 
-![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/03a81962-4b65-4e15-b8a0-b8e622ffd639)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
-```
-@echo off
-mkdir %userprofile%\Desktop\DocBackup
-copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
-echo Backup completed successfully!
-```
-Modify the script to delete files with the ".docx" extension from the "Documents" folder after creating the backup.
-```
-@echo off
-mkdir %userprofile%\Desktop\DocBackup
-copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
-del %userprofile%\Documents\*.docx
-echo Backup and deletion completed successfully!
-```
+
+
+
 
 
 
@@ -81,8 +68,9 @@ echo Backup and deletion completed successfully!
 ## OUTPUT
 
 
-![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/924098bd-8ea7-43be-8128-c89b19d220b8)
+![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/75394eb7-de19-4b63-9af4-540d2212e519)
 
+![image](https://github.com/VasanthiSivasankar/Windows-basic-commands-batchscript/assets/161431945/4acc951f-e89c-4a81-a3c2-f1d9eccd746a)
 
 
 # RESULT:
